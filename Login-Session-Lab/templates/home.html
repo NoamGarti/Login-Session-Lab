@@ -4,11 +4,36 @@
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<title></title>
+	 <style>
+		body {
+  			background-image: url('bkimg.jpeg');
+ 			background-repeat: no-repeat;
+  			background-attachment: fixed;
+  			background-size: cover;
+}
+ </style>
 </head>
 <body>
-<h1>Write your name, age, and a message!</h1>
-<br>
 
+
+<h1>Please enter a name age and quote</h1>
+<br>
+<form action="/" method="POST" style="max-width:500px;margin:auto">
+	<div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="number" placeholder="author age" name="age">
+  </div>
+
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="text" placeholder="author name" name="name">
+  </div>
+  <div class="input-container">
+    <i class="fa fa-key icon"></i>
+    <input class="input-field" type="text" placeholder="quote author" name="quote">
+  </div>
+    <button type="submit" class="btn">Submit</button>
+</form>
 <!-- Create your form here!
  -->
  
